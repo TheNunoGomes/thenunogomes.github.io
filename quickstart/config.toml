@@ -1,4 +1,4 @@
-baseURL = 'https://thenunogomes.github.io/'
+baseURL = 'https://thenunogomes.github.io/index'
 languageCode = 'en-us'
 title = 'Nuno Gomes'
 theme = "consola-theme"
