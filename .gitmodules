@@ -1,0 +1,3 @@
+[submodule "quickstart/themes/consola-theme"]
+	path = quickstart/themes/consola-theme
+	url = https://github.com/TheNunoGomes/consola-theme
