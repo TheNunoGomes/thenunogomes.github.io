@@ -18,19 +18,17 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.75.1'
+        hugo-version: 'latest'
 
     - name: Build
       working-directory: quickstart
       run: hugo --minify
 
     - name: Deploy to gh-pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages 
-        FOLDER: quickstart/public
-        CLEAN: true  
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
 
 
         
