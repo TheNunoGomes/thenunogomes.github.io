@@ -1,0 +1,32 @@
+[
+    {
+        "category": "Languages",
+        "icons": [
+            { "icon": "![HTML](/icons/html.svg)" },
+            { "icon": "![CSS](/icons/css.svg)" },
+            { "icon": "![Javascript](/icons/js.svg)" },
+            { "icon": "![Typescript](/icons/ts.svg)" },
+            { "icon": "![C](/icons/c.svg)" },
+            { "icon": "![C Sharp](/icons/cs.svg)" },
+            { "icon": "![PHP](/icons/php.svg)" }
+        ]
+    },
+    {
+        "category": "Frameworks",
+        "icons": [
+            { "icon": "![Vue](/icons/vue.svg)" },
+            { "icon": "![JQuery](/icons/jquery.svg)" },
+            { "icon": "![React](/icons/react.svg)" }
+        ]
+    },
+    {
+        "category": "Miscellaneous",
+        "icons": [
+            { "icon": "![NPM](/icons/npm.svg)" },
+            { "icon": "![Node](/icons/node.svg)" },
+            { "icon": "![Express](/icons/express.svg)" },
+            { "icon": "![MongoDB](/icons/mongo.svg)" },
+            { "icon": "![Linux](/icons/vscode.svg)" }
+        ]
+    }
+]
