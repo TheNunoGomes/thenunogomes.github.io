@@ -11,18 +11,6 @@ body {
     padding: 1em 2em;
 }
 
-footer {
-    position: fixed;
-    bottom:0;
-
-    width:100%;
-
-    text-align: start;
-    margin: 1em;
-
-    color: rgba(255, 255, 255, 0.3)
-}
-
 .sidebar > h2 {
     margin-top: 2em;
     margin-bottom: 0.2em
@@ -59,17 +47,61 @@ a {
     font-size: 2em;
 }
 
-.page-body {
-    display: flex;
-    text-align: center;
-    padding: 2em;
-}
+@media (min-width: 1500px) {
+    .page-body {
+        display: flex;
+        text-align: center;
+        padding: 2em;
+    }
+    .sidebar {
+        position: fixed;
+        text-align: left;
+        width: 45%;
+    }
+    .page-right {
+        margin-left: 45%;
+        text-align: left;
+        width: 70%;
+    }
+    footer {
+        position: fixed;
+        bottom:0;
 
-.sidebar {
-    position: fixed;
-    text-align: left;
-    width: 45%;
-}
+        width:100%;
+
+        text-align: start;
+        margin: 1em;
+
+        color: rgba(255, 255, 255, 0.3)
+    }
+  }
+  
+@media (max-width: 1500px) {
+    .page-body {
+        display: block;
+        text-align: left;
+        padding: 2em;
+    }
+    .sidebar {
+        position: relative;
+        text-align: left;
+        width: 100%;
+    }
+    .page-right {
+        text-align: left;
+        width: 100%;
+    }
+    footer {
+        position: relative;
+        bottom:0;
+
+        width:100%;
+
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.3)
+    }
+  }
 
 .sidebar-role, .sidebar-socials {
     display: flex;
@@ -103,12 +135,6 @@ a.icon > img {
 }
 .sidebar-role > *, .sidebar-socials > * {
     margin: 0em 0.5em;
-}
-
-.page-right {
-    margin-left: 45%;
-    text-align: left;
-    width: 70%;
 }
 
 .page-body > * {
