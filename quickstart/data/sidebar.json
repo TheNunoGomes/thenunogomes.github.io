@@ -22,6 +22,10 @@
         {
             "icon": "![CV](/icons/cv.svg)",
             "url": "/docs/cv.pdf"
+        },
+        {
+            "icon": "![Youtube Accelerator](/icons/youtubeaccelerator.svg)",
+            "url": "https://github.com/TheNunoGomes/youtube-accelerator"
         }
     ]
 }
