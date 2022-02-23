@@ -1,170 +1,175 @@
 @font-face {
-    font-family: Terminal;
-    src: url(../fonts/SvBasicManual-nRPP.ttf);
+  font-family: "IBM Plex Mono", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 }
 
 body {
-    font-family: Terminal;
-    font-size: 20px;
-    background-color: #000700;
-    color: white;
-    padding: 1em 2em;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+  background-color: #000700;
+  color: white;
+  padding: 1em 2em;
 }
 
 .sidebar > h2 {
-    margin-top: 2em;
-    margin-bottom: 0.2em
-} 
+  margin-top: 2em;
+  margin-bottom: 0.2em;
+}
 
 h3 {
-    font-weight: 400;
-    font-size: 1.5em;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 p {
-    font-weight: 400;
-    font-size: 1.2em;
+  font-weight: 400;
+  font-size: 1.2em;
 }
 
 a {
-    text-decoration: none;
-    color: #585
+  text-decoration: none;
+  color: #585;
 }
 
-#author, #author > a, #about-me {
-    color: #D7D700;
+#author,
+#author > a,
+#about-me {
+  color: #d7d700;
 }
 
 #author::before {
-    content: "C:\\Users\\"
+  content: "C:\\Users\\";
 }
 
 #author::after {
-    content: ">"
+  content: ">";
 }
 
 #about-me {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 @media (min-width: 1500px) {
-    .page-body {
-        display: flex;
-        text-align: center;
-        padding: 2em;
-    }
-    .sidebar {
-        position: fixed;
-        text-align: left;
-        width: 45%;
-    }
-    .page-right {
-        margin-left: 45%;
-        text-align: left;
-        width: 70%;
-    }
-    footer {
-        position: fixed;
-        bottom:0;
-
-        width:100%;
-
-        text-align: start;
-        margin: 1em;
-
-        color: rgba(255, 255, 255, 0.3)
-    }
-  }
-  
-@media (max-width: 1500px) {
-    .page-body {
-        display: block;
-        text-align: left;
-        padding: 2em;
-    }
-    .sidebar {
-        position: relative;
-        text-align: left;
-        width: 100%;
-    }
-    .page-right {
-        text-align: left;
-        width: 100%;
-    }
-    footer {
-        position: relative;
-        bottom:0;
-
-        width:100%;
-
-        text-align: center;
-
-        color: rgba(255, 255, 255, 0.3)
-    }
-  }
-
-.sidebar-role, .sidebar-socials {
+  .page-body {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 1em 0em;
+    text-align: center;
+    padding: 2em;
+  }
+  .sidebar {
+    position: fixed;
+    text-align: left;
+    width: 45%;
+  }
+  .page-right {
+    margin-left: 45%;
+    text-align: left;
+    width: 70%;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+
+    text-align: start;
+    margin: 1em;
+
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
-.sidebar-role, .sidebar-socials {
-    margin-top: 2.5em;
+@media (max-width: 1500px) {
+  .page-body {
+    display: block;
+    text-align: left;
+    padding: 2em;
+  }
+  .sidebar {
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
+  .page-right {
+    text-align: left;
+    width: 100%;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.sidebar-role,
+.sidebar-socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1em 0em;
+}
+
+.sidebar-role,
+.sidebar-socials {
+  margin-top: 2.5em;
 }
 
 .sidebar-role > h3 {
-    width: 45%;
+  width: 45%;
 }
 
 .sidebar-role :nth-child(2)::before {
-    content: "@ "
+  content: "@ ";
 }
 
 .sidebar-social {
-    height: 2em;
-    width: 2em;
+  height: 2em;
+  width: 2em;
 }
 
 a.icon > img {
-    width: inherit;
-    color:white;
-    height: auto;
+  width: inherit;
+  color: white;
+  height: auto;
 }
-.sidebar-role > *, .sidebar-socials > * {
-    margin: 0em 0.5em;
+.sidebar-role > *,
+.sidebar-socials > * {
+  margin: 0em 0.5em;
 }
 
 .page-body > * {
-    padding: 2em 2em;
+  padding: 2em 2em;
 }
 
 .article-title {
-    color: #96b02a;
-    margin-top: 2em;
-    font-size: 2em;
-    margin-bottom: 0.2em;
+  color: #96b02a;
+  margin-top: 2em;
+  font-size: 2em;
+  margin-bottom: 0.2em;
 }
 
 .article-item-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .techstack-category {
-    color: #585;
-    text-align: center;
+  color: #585;
+  text-align: center;
 }
 
 .techstack-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
 }
 
 .techstack-icon {
-    width: 4em;
-    height: 4em;
+  width: 4em;
+  height: 4em;
 }
