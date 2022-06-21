@@ -1,31 +1,35 @@
 {
-    "author": "Nuno%20Gomes",
-    "roles": [
-        {
-            "role": "Front-End Developer",
-            "location": "Hitachi Solutions"
-        },
-        {
-            "role": "MSc Electrical and Computer Engineering",
-            "location": "FEUP"
-        }
-    ],
-    "socials": [
-        {
-            "icon": "![LinkedIn](/icons/linkedin.svg)",
-            "url": "https://www.linkedin.com/in/thenunogomes/"
-        },
-        {
-            "icon": "![Github](/icons/github.svg)",
-            "url": "https://github.com/TheNunoGomes"
-        },
-        {
-            "icon": "![CV](/icons/cv.svg)",
-            "url": "/docs/cv.pdf"
-        },
-        {
-            "icon": "![Youtube Accelerator](/icons/youtubeaccelerator.svg)",
-            "url": "https://github.com/TheNunoGomes/youtube-accelerator"
-        }
-    ]
+  "author": "Nuno%20Gomes",
+  "roles": [
+    {
+      "role": "Azure PaaS Support Engineer",
+      "location": "Microsoft"
+    },
+    {
+      "role": "Front-End Developer",
+      "location": "Hitachi Solutions"
+    },
+    {
+      "role": "MSc Electrical and Computer Engineering",
+      "location": "FEUP"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "![LinkedIn](/icons/linkedin.svg)",
+      "url": "https://www.linkedin.com/in/thenunogomes/"
+    },
+    {
+      "icon": "![Github](/icons/github.svg)",
+      "url": "https://github.com/TheNunoGomes"
+    },
+    {
+      "icon": "![CV](/icons/cv.svg)",
+      "url": "/docs/cv.pdf"
+    },
+    {
+      "icon": "![Youtube Accelerator](/icons/youtubeaccelerator.svg)",
+      "url": "https://github.com/TheNunoGomes/youtube-accelerator"
+    }
+  ]
 }
