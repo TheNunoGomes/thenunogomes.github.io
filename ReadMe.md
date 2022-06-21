@@ -10,6 +10,9 @@ This is the source code for my personal website.
   - Added Back-End Development and APIs certification
 - February 2022
   - Changed font to IBM Plex Mono
+- June 2022
+  - Completed MSc
+  - Joined Microsoft
 
 ## Version 1
 
@@ -30,3 +33,7 @@ This is the source code for my personal website.
   - Replaced proficiency levels with a Tech Stack rundown with icons
 
 Deprecated in October 2021
+
+## Server
+
+> hugo server
