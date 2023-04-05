@@ -26,10 +26,16 @@
     "title": "Certifications",
     "items": [
       {
+        "role": "AZ-900: Microsoft Azure Fundamentals",
+        "date": "2022",
+        "url": "https://www.credly.com/badges/463516fb-7183-4a45-bb10-6072fd7100c9?source=linked_in_profile",
+        "description": "Upon joining Microsoft, I took the chance to become certified in Azure core concepts."
+      },
+      {
         "role": "Back-End Development and APIs",
         "date": "2021",
         "url": "https://www.freecodecamp.org/certification/thenunogomes/back-end-development-and-apis",
-        "description": "Took this course when I wondered how APIs come to be - how data can be exchanged at given endpoints and where it could be stored. Learned about MongoDB and Express.js to complete my MEVN tech stack and deployed my work to [this website](https://ngomes-apis-and-microservices.herokuapp.com/)."
+        "description": "Took this course when I wondered how APIs come to be - how data can be exchanged at given endpoints and where it could be stored. Learned about MongoDB and Express.js to complete my MEVN tech stack."
       },
       {
         "role": "JavaScript Algorithms and Data Structures Certification",
