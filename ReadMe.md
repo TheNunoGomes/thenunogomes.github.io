@@ -13,6 +13,8 @@ This is the source code for my personal website.
 - June 2022
   - Completed MSc
   - Joined Microsoft
+- January 2026
+  - Added CTW and new Tech Stack
 
 ## Version 1
 
@@ -34,6 +36,4 @@ This is the source code for my personal website.
 
 Deprecated in October 2021
 
-## Server
 
-> hugo server

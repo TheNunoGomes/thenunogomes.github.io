@@ -1,12 +1,16 @@
 {
-  "author": "Nuno%20Gomes",
+  "author": "Nuno Gomes",
   "roles": [
+    {
+      "role": "Software Engineer, Full-Stack",
+      "location": "Critical Techworks - BMW joint venture"
+    },
     {
       "role": "Azure PaaS Support Engineer",
       "location": "Microsoft"
     },
     {
-      "role": "Front-End Developer",
+      "role": "Software Engineer, Front-End",
       "location": "Hitachi Solutions"
     },
     {

@@ -3,22 +3,28 @@
     "title": "Experience",
     "items": [
       {
-        "role": "Azure PaaS Support Engineer @ Microsoft",
-        "date": "2022-Present",
-        "url": "https://www.microsoft.com/pt-pt/",
-        "description": "Joined the Azure PaaS team as a Support Engineer for the ARM product."
+        "role": "Software Engineer, Full-Stack @ Microsoft",
+        "date": "2024-Present",
+        "url": "https://www.criticaltechworks.com/",
+        "description": "Working on an internal commercial data platform, building standardization systems for sales data from external sources into a unified data model."
       },
       {
-        "role": "Front-End Developer @ Hitachi Solutions Europe",
+        "role": "Azure PaaS Support Engineer @ Microsoft",
+        "date": "2022-2024",
+        "url": "https://www.microsoft.com/pt-pt/",
+        "description": "Joined the Azure PaaS team as a Support Engineer for the Azure Resource Management Layer."
+      },
+      {
+        "role": "Software Engineer, Front-End @ Hitachi Solutions Europe",
         "date": "2019-2022",
         "url": "https://www.hitachi-solutions.co.uk/",
-        "description": "Joined the company's graduate program as a CRM Javascript Developer and progressed to a Front-End Developer role after being positively reviewed for work performed on a Housing Solution."
+        "description": "Developed web applications in Vue.js: A Word-Addin to automate insertion of sprint information in standardized deliverable documents, a Content Management System to manage internal tickets and documents, and developed application hooks for a form-building plugin to support custom logic from the user."
       },
       {
         "role": "MSc in Electrical and Computer Engineering @ FEUP",
         "date": "2014-2022",
         "url": "https://sigarra.up.pt/feup/pt/web_page.inicial",
-        "description": "Moved from Madeira Island to Porto to study Electrical and Computer Engineering. After 2018, specialized in Telecommunications, Computers and Electronics - Multimedia and Communications. In 2021 delivered [An Analysis of Performance Recipes in C Applications](/docs/dissertation.pdf), where I describe the impact of code refactoring techniques in the execution time, energy consumption and cache efficiency of C benchmarks and proposed automated scripts, written in [LARA](https://specs.fe.up.pt/tools/clava/doc/#) and ran in [Clava](https://specs.fe.up.pt/tools/clava/), to apply said refactoring techniques."
+        "description": "Specialized in Telecommunications, Computers and Electronics - Multimedia and Communications. Master's Dissertation [An Analysis of Performance Recipes in C Applications](/docs/dissertation.pdf), on the impact of code refactoring techniques in execution time, energy consumption and cache efficiency of C applications. Proposed automated scripts, written in [LARA](https://specs.fe.up.pt/tools/clava/doc/#) and run in [Clava](https://specs.fe.up.pt/tools/clava/), to apply said refactoring techniques."
       }
     ]
   },
@@ -30,18 +36,6 @@
         "date": "2022",
         "url": "https://www.credly.com/badges/463516fb-7183-4a45-bb10-6072fd7100c9?source=linked_in_profile",
         "description": "Upon joining Microsoft, I took the chance to become certified in Azure core concepts."
-      },
-      {
-        "role": "Back-End Development and APIs",
-        "date": "2021",
-        "url": "https://www.freecodecamp.org/certification/thenunogomes/back-end-development-and-apis",
-        "description": "Took this course when I wondered how APIs come to be - how data can be exchanged at given endpoints and where it could be stored. Learned about MongoDB and Express.js to complete my MEVN tech stack."
-      },
-      {
-        "role": "JavaScript Algorithms and Data Structures Certification",
-        "date": "2017",
-        "url": "https://www.freecodecamp.org/certification/thenunogomes/javascript-algorithms-and-data-structures",
-        "description": "My learning path on Web Development started here, when I became interested in learning markup, styling and Javascript to create the [first version of this Portfolio](/docs/v1.png). This course taught me the fundamentals of these languages, as well as the concepts of JSON, JQuery and AJAX."
       }
     ]
   }

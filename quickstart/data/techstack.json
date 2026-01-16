@@ -2,31 +2,64 @@
     {
         "category": "Languages",
         "icons": [
-            { "icon": "![HTML](/icons/html.svg)" },
-            { "icon": "![CSS](/icons/css.svg)" },
-            { "icon": "![Javascript](/icons/js.svg)" },
-            { "icon": "![Typescript](/icons/ts.svg)" },
-            { "icon": "![C](/icons/c.svg)" },
-            { "icon": "![C Sharp](/icons/cs.svg)" },
-            { "icon": "![PHP](/icons/php.svg)" }
+            {
+                "icon": "![Typescript](/icons/ts.svg)"
+            },
+            {
+                "icon": "![Javascript](/icons/js.svg)"
+            },
+            {
+                "icon": "![HTML](/icons/html.svg)"
+            },
+            {
+                "icon": "![CSS](/icons/css.svg)"
+            },
+            {
+                "icon": "![PostgreSQL](/icons/postgresql.svg)"
+            },
+            {
+                "icon": "![C](/icons/python.svg)"
+            },
+            {
+                "icon": "![C Sharp](/icons/cs.svg)"
+            },
+            {
+                "icon": "![C](/icons/c.svg)"
+            }
         ]
     },
     {
         "category": "Frameworks",
         "icons": [
-            { "icon": "![Vue](/icons/vue.svg)" },
-            { "icon": "![JQuery](/icons/jquery.svg)" },
-            { "icon": "![React](/icons/react.svg)" }
+            {
+                "icon": "![React](/icons/react.svg)"
+            },
+            {
+                "icon": "![Vue](/icons/vue.svg)"
+            },
+            {
+                "icon": "![Angular](/icons/angular.svg)"
+            }
         ]
     },
     {
         "category": "Miscellaneous",
         "icons": [
-            { "icon": "![NPM](/icons/npm.svg)" },
-            { "icon": "![Node](/icons/node.svg)" },
-            { "icon": "![Express](/icons/express.svg)" },
-            { "icon": "![MongoDB](/icons/mongo.svg)" },
-            { "icon": "![Linux](/icons/vscode.svg)" }
+            {
+                "icon": "![AWS](/icons/aws.svg)"
+            },
+            {
+                "icon": "![Serverless](/icons/serverless.svg)"
+            },
+            {
+                "icon": "![Node](/icons/node.svg)"
+            },
+            {
+                "icon": "![NestJS](/icons/nest.svg)"
+            },
+            {
+                "icon": "![Azure](/icons/azure.svg)"
+            }
         ]
     }
 ]
